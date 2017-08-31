@@ -20,7 +20,7 @@ public class timeController {
         SimpleDateFormat sdf = new SimpleDateFormat(format, Locale.KOREAN);
 
         timeNow = sdf.format(new Date());
-        Log.v("timeLog", "time is = "+timeNow);
+
 
         return timeNow;
 
